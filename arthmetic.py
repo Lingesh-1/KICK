@@ -16,12 +16,15 @@ def floor():
 #Multiplication
 def mul():
     print("Multiplication of",a,"and",b,"=",a*b)
+#Power/Expotential
 def exp():
     s=input("For doing this operation which variable should be in power: ")
     if s == "A" or"a":
         print(a,"to the power",b,"=",a**b)
     elif s== "B" or "b":
         print(b,"to the power",a,"=",b**a)
+
+    
 
 a = int(input("Enter value of A: "))
 b = int(input("Enter Value of B: "))
